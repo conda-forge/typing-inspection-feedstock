@@ -1,5 +1,5 @@
 {% set name = "typing-inspection" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/typing_inspection-{{ version }}.tar.gz
-  sha256: 6ae134cc0203c33377d43188d4064e9b357dba58cff3185f22924610e70a9d28
+  sha256: ba561c48a67c5958007083d386c3295464928b01faa735ab8547c5692e87f464
 
 build:
   noarch: python
