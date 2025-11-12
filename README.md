@@ -9,6 +9,8 @@ Package license: MIT
 
 Summary: Runtime typing introspection tools
 
+Development: https://github.com/pydantic/typing-inspection
+
 Current build status
 ====================
 
