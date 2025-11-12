@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -35,6 +35,7 @@ test:
 about:
   summary: Runtime typing introspection tools
   home: https://github.com/pydantic/typing-inspection
+  dev_url: https://github.com/pydantic/typing-inspection
   license: MIT
   license_file: LICENSE
 
