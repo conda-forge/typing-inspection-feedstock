@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: typing-inspection
-  version: 0.4.3
+  version: "0.4.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/typing_inspection-${{ version }}.tar.gz
-  sha256: c5f9ec1530b5c1e2c9bc34a84d9a3466ed1b2f3f2fa9f901368d9c5596210e4d
+  sha256: 547274fa6b0a561ccf549cc9524b999a578e737d015d8709d021f9d0d13bea47
 
 build:
   number: 0
